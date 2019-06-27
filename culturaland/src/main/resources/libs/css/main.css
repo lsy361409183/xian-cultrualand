@@ -1,8 +1,16 @@
 /*
     可视化展示模块
 */
-
-
+#wl_map_warp{
+    position: relative;
+    /* height: 1000px; */
+}
+#wl_map_warp .wl_fix_box{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    z-index: 10;
+}
 
 
 
