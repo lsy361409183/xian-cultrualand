@@ -4,7 +4,7 @@ var cl_map = new AMap.Map("wl_map_warp",{
     // viewMode:'3D'//使用3D视图
 });
 
-// 设置
+// 设置地图高度
 function setHeight () {
     var clientHeight = $(window).height();
     var dom_map = $('#wl_map_warp');
